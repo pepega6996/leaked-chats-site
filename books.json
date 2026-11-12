@@ -1,0 +1,327 @@
+[
+  {
+    "title": "World War II",
+    "period": "1937–1947",
+    "accent": "#af512c",
+    "background": "#e9d6ad",
+    "published": true,
+    "description": "Their words are real. Their group chats are imagined. World War II unfolds through authentic historical words, shifting alliances, political rivalries, and the quiet absurdities of a world at war.",
+    "status": "available",
+    "provisional": false
+  },
+  {
+    "title": "World War I",
+    "period": "1914–1918",
+    "accent": "#817a3b",
+    "background": "#dfdcaa",
+    "description": "An assassination becomes an ultimatum; an ultimatum becomes a world war. Europe discovers that adding everyone to a crisis does not make it easier to resolve.",
+    "speakers": [
+      [
+        "KAISER WILHELM II",
+        "GERMAN EMPEROR",
+        "My allies have my full support."
+      ],
+      [
+        "NICHOLAS II",
+        "RUSSIAN EMPEROR",
+        "An entirely reasonable position. Mine do too."
+      ],
+      [
+        "WOODROW WILSON",
+        "U.S. PRESIDENT",
+        "The world must be made safe for democracy."
+      ],
+      [
+        "DAVID LLOYD GEORGE",
+        "BRITISH PRIME MINISTER",
+        "Excellent. Can someone first get us out of this group?"
+      ]
+    ],
+    "system": "Austria-Hungary added everyone to Local Dispute",
+    "reaction": "Nicholas II",
+    "emoji": "😬",
+    "groups": "37",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The American Civil War",
+    "period": "1861–1865",
+    "accent": "#9c413b",
+    "background": "#e5ced0",
+    "description": "A nation splits. Its leaders, abolitionists, generals, and dissenters struggle over slavery, union, and freedom—while everyone insists the other side started the thread.",
+    "speakers": [
+      [
+        "ABRAHAM LINCOLN",
+        "U.S. PRESIDENT",
+        "A house divided against itself cannot stand."
+      ],
+      [
+        "FREDERICK DOUGLASS",
+        "ABOLITIONIST",
+        "Power concedes nothing without a demand."
+      ],
+      [
+        "ULYSSES S. GRANT",
+        "UNION GENERAL",
+        "I propose to fight it out on this line if it takes all summer."
+      ],
+      [
+        "ROBERT E. LEE",
+        "CONFEDERATE GENERAL",
+        "I had hoped for a shorter conversation."
+      ]
+    ],
+    "system": "South Carolina left Union · Created a new group",
+    "reaction": "Jefferson Davis",
+    "emoji": "👀",
+    "groups": "34",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Cold War",
+    "period": "1947–1991",
+    "accent": "#4c7193",
+    "background": "#d4e1eb",
+    "description": "A divided planet, two superpowers, too many missiles, and an astonishing amount of arguing in public while negotiating in private. Nobody wants to leave. Nobody dares to mute.",
+    "speakers": [
+      [
+        "HARRY S. TRUMAN",
+        "U.S. PRESIDENT",
+        "We need to contain this."
+      ],
+      [
+        "JOSEPH STALIN",
+        "SOVIET LEADER",
+        "Contain what, exactly?"
+      ],
+      [
+        "JOHN F. KENNEDY",
+        "U.S. PRESIDENT",
+        "We need a direct line."
+      ],
+      [
+        "NIKITA KHRUSHCHEV",
+        "SOVIET LEADER",
+        "Then perhaps we can stop shouting across the planet."
+      ]
+    ],
+    "system": "Group description updated: Mutually Assured Destruction",
+    "reaction": "Joseph Stalin",
+    "emoji": "🥶",
+    "groups": "49",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Space Race",
+    "period": "1957–1975",
+    "accent": "#4259b8",
+    "background": "#d9d6f2",
+    "description": "Rockets, rivalries, impossible deadlines, and the race beyond Earth. The Cold War acquires a launchpad—and a group chat with absolutely no room for a typo.",
+    "speakers": [
+      [
+        "SERGEI KOROLEV",
+        "CHIEF DESIGNER",
+        "Sputnik is in orbit."
+      ],
+      [
+        "DWIGHT D. EISENHOWER",
+        "U.S. PRESIDENT",
+        "We are aware."
+      ],
+      [
+        "JOHN F. KENNEDY",
+        "U.S. PRESIDENT",
+        "We choose to go to the Moon."
+      ],
+      [
+        "NEIL ARMSTRONG",
+        "ASTRONAUT",
+        "That’s one small step for a man..."
+      ]
+    ],
+    "system": "The Moon was pinned to Race to the Future",
+    "reaction": "John F. Kennedy",
+    "emoji": "🚀",
+    "groups": "12",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Manhattan Project",
+    "period": "1939–1945",
+    "accent": "#ad762f",
+    "background": "#eddeb7",
+    "description": "Scientists, soldiers, classified messages, and the race to split the atom. A breakthrough of astonishing ingenuity creates a question no one can put back in its box.",
+    "speakers": [
+      [
+        "ALBERT EINSTEIN",
+        "PHYSICIST",
+        "I have a concern about uranium."
+      ],
+      [
+        "J. ROBERT OPPENHEIMER",
+        "SCIENTIFIC DIRECTOR",
+        "There may be several concerns."
+      ],
+      [
+        "ENRICO FERMI",
+        "PHYSICIST",
+        "The chain reaction worked."
+      ],
+      [
+        "LEO SZILARD",
+        "PHYSICIST",
+        "Can we discuss where this is going?"
+      ]
+    ],
+    "system": "Leslie Groves restricted group invitations",
+    "reaction": "Leslie Groves",
+    "emoji": "🔒",
+    "groups": "6",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Great Recession",
+    "period": "2007–2009",
+    "accent": "#387f71",
+    "background": "#cae4d9",
+    "description": "The housing bubble bursts. Banks wobble. Confidence vanishes. The people charged with keeping the financial system standing discover that the group is far too big to fail quietly.",
+    "speakers": [
+      [
+        "BEN BERNANKE",
+        "FEDERAL RESERVE CHAIR",
+        "The housing problem appears contained."
+      ],
+      [
+        "HENRY PAULSON",
+        "TREASURY SECRETARY",
+        "Contained where?"
+      ],
+      [
+        "TIMOTHY GEITHNER",
+        "NEW YORK FED",
+        "We may need a new plan."
+      ],
+      [
+        "BEN BERNANKE",
+        "FEDERAL RESERVE CHAIR",
+        "And considerably larger numbers."
+      ]
+    ],
+    "system": "Lehman Brothers was removed from Too Big to Fail",
+    "reaction": "Henry Paulson",
+    "emoji": "📉",
+    "groups": "23",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Great Depression",
+    "period": "1929–1939",
+    "accent": "#b75f36",
+    "background": "#e9d4c3",
+    "description": "The party on Wall Street ends; the consequences reach nearly everywhere. Confidence, policy, and desperation collide in the long aftermath of the crash.",
+    "speakers": [
+      [
+        "IRVING FISHER",
+        "ECONOMIST",
+        "Stock prices have reached what looks like a permanently high plateau."
+      ],
+      [
+        "JESSE LIVERMORE",
+        "TRADER",
+        "That is a very tall plateau."
+      ],
+      [
+        "HERBERT HOOVER",
+        "U.S. PRESIDENT",
+        "Recovery is on its way."
+      ],
+      [
+        "FRANKLIN D. ROOSEVELT",
+        "U.S. PRESIDENT",
+        "The only thing we have to fear is fear itself."
+      ]
+    ],
+    "system": "Great Expectations renamed Great Depression",
+    "reaction": "Jesse Livermore",
+    "emoji": "📉",
+    "groups": "18",
+    "status": "coming soon",
+    "provisional": false
+  },
+  {
+    "title": "The Scientific Revolution",
+    "period": "c. 1543–1687",
+    "accent": "#7950ad",
+    "background": "#e6d9ef",
+    "provisional": true,
+    "description": "The universe receives an update. Copernicus, Galileo, Bacon, Kepler, and Newton challenge centuries of accepted thinking—and discover that the group admins are not pleased.",
+    "speakers": [
+      [
+        "GALILEO GALILEI",
+        "ASTRONOMER",
+        "I looked. The Earth is moving."
+      ],
+      [
+        "FRANCIS BACON",
+        "PHILOSOPHER",
+        "Has anyone considered checking?"
+      ],
+      [
+        "ISAAC NEWTON",
+        "MATHEMATICIAN",
+        "I have three laws to propose."
+      ],
+      [
+        "ROBERT HOOKE",
+        "NATURAL PHILOSOPHER",
+        "I trust the acknowledgments are also governed by law."
+      ]
+    ],
+    "system": "Ptolemy lost admin privileges in Established Facts",
+    "reaction": "Johannes Kepler",
+    "emoji": "🔭",
+    "groups": "42",
+    "status": "coming soon"
+  },
+  {
+    "title": "The American Revolution",
+    "period": "1765–1783",
+    "accent": "#ab5370",
+    "background": "#efcdda",
+    "description": "Thirteen colonies object to the terms of membership. Pamphlets, letters, arguments, and impossible choices lead to a declaration—and an entirely new group.",
+    "speakers": [
+      [
+        "GEORGE III",
+        "KING OF GREAT BRITAIN",
+        "Thirteen colonies. Please confirm attendance."
+      ],
+      [
+        "BENJAMIN FRANKLIN",
+        "DIPLOMAT",
+        "We have a few objections."
+      ],
+      [
+        "THOMAS JEFFERSON",
+        "FOUNDING FATHER",
+        "We hold these truths to be self-evident."
+      ],
+      [
+        "GEORGE WASHINGTON",
+        "COMMANDER IN CHIEF",
+        "Then I suppose someone should organize this."
+      ]
+    ],
+    "system": "Thirteen colonies left British Empire",
+    "reaction": "Benjamin Franklin",
+    "emoji": "🫖",
+    "groups": "13",
+    "status": "coming soon",
+    "provisional": false
+  }
+]
