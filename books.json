@@ -42,7 +42,8 @@
     "emoji": "😬",
     "groups": "37",
     "status": "coming soon",
-    "provisional": false
+    "provisional": false,
+    "published": false
   },
   {
     "title": "The American Civil War",
@@ -117,8 +118,8 @@
   {
     "title": "The Space Race",
     "period": "1957–1975",
-    "accent": "#4259b8",
-    "background": "#d9d6f2",
+    "accent": "#8a8a8a",
+    "background": "#ffffff",
     "description": "Rockets, rivalries, impossible deadlines, and the race beyond Earth. The Cold War acquires a launchpad—and a group chat with absolutely no room for a typo.",
     "speakers": [
       [
@@ -152,8 +153,8 @@
   {
     "title": "The Manhattan Project",
     "period": "1939–1945",
-    "accent": "#ad762f",
-    "background": "#eddeb7",
+    "accent": "#fff200",
+    "background": "#60ff1c",
     "description": "Scientists, soldiers, classified messages, and the race to split the atom. A breakthrough of astonishing ingenuity creates a question no one can put back in its box.",
     "speakers": [
       [
@@ -222,8 +223,8 @@
   {
     "title": "The Great Depression",
     "period": "1929–1939",
-    "accent": "#b75f36",
-    "background": "#e9d4c3",
+    "accent": "#111111",
+    "background": "#d9d9d9",
     "description": "The party on Wall Street ends; the consequences reach nearly everywhere. Confidence, policy, and desperation collide in the long aftermath of the crash.",
     "speakers": [
       [
@@ -256,44 +257,44 @@
   },
   {
     "title": "The Scientific Revolution",
-    "period": "c. 1543–1687",
-    "accent": "#7950ad",
-    "background": "#e6d9ef",
-    "provisional": true,
-    "description": "The universe receives an update. Copernicus, Galileo, Bacon, Kepler, and Newton challenge centuries of accepted thinking—and discover that the group admins are not pleased.",
+    "period": "c. 1400–1600",
+    "accent": "#7c559d",
+    "background": "#e8d8ee",
+    "provisional": false,
+    "description": "Observation, experiment, mathematics, and a stubborn refusal to accept old answers. The laws of nature are rewritten in a chat full of telescopes, arguments, and inconvenient evidence.",
     "speakers": [
       [
-        "GALILEO GALILEI",
+        "JOHANNES GUTENBERG",
+        "PRINTER",
+        "I can make copies."
+      ],
+      [
+        "LORENZO DE’ MEDICI",
+        "PATRON",
+        "How many copies?"
+      ],
+      [
+        "MICHELANGELO",
+        "ARTIST",
+        "I was told this would be a ceiling."
+      ],
+      [
+        "NICOLAUS COPERNICUS",
         "ASTRONOMER",
-        "I looked. The Earth is moving."
-      ],
-      [
-        "FRANCIS BACON",
-        "PHILOSOPHER",
-        "Has anyone considered checking?"
-      ],
-      [
-        "ISAAC NEWTON",
-        "MATHEMATICIAN",
-        "I have three laws to propose."
-      ],
-      [
-        "ROBERT HOOKE",
-        "NATURAL PHILOSOPHER",
-        "I trust the acknowledgments are also governed by law."
+        "I may have a note about the center of everything."
       ]
     ],
-    "system": "Ptolemy lost admin privileges in Established Facts",
-    "reaction": "Johannes Kepler",
-    "emoji": "🔭",
-    "groups": "42",
+    "system": "Leonardo da Vinci created 47 new drafts",
+    "reaction": "Leonardo da Vinci",
+    "emoji": "🎨",
+    "groups": "28",
     "status": "coming soon"
   },
   {
     "title": "The American Revolution",
     "period": "1765–1783",
-    "accent": "#ab5370",
-    "background": "#efcdda",
+    "accent": "#21468b",
+    "background": "#c62333",
     "description": "Thirteen colonies object to the terms of membership. Pamphlets, letters, arguments, and impossible choices lead to a declaration—and an entirely new group.",
     "speakers": [
       [
