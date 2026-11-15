@@ -1,348 +1,101 @@
 [
   {
-    "title": "World War II",
-    "period": "1937–1947",
-    "accent": "#af512c",
-    "background": "#e9d6ad",
-    "published": true,
-    "description": "Their words are real. Their group chats are imagined. World War II unfolds through authentic historical words, shifting alliances, political rivalries, and the quiet absurdities of a world at war.",
-    "status": "published",
-    "provisional": false,
-    "volume": 1,
-    "amazon_url": "https://www.amazon.com/dp/B0HRP19B4Z"
-  },
-  {
+    "section": "War Trilogy",
     "title": "World War I",
     "period": "1914–1918",
-    "accent": "#817a3b",
-    "background": "#dfdcaa",
-    "description": "An assassination becomes an ultimatum; an ultimatum becomes a world war. Europe discovers that adding everyone to a crisis does not make it easier to resolve.",
-    "speakers": [
-      [
-        "KAISER WILHELM II",
-        "GERMAN EMPEROR",
-        "My allies have my full support."
-      ],
-      [
-        "NICHOLAS II",
-        "RUSSIAN EMPEROR",
-        "An entirely reasonable position. Mine do too."
-      ],
-      [
-        "WOODROW WILSON",
-        "U.S. PRESIDENT",
-        "The world must be made safe for democracy."
-      ],
-      [
-        "DAVID LLOYD GEORGE",
-        "BRITISH PRIME MINISTER",
-        "Excellent. Can someone first get us out of this group?"
-      ]
-    ],
-    "system": "Austria-Hungary added everyone to Local Dispute",
-    "reaction": "Nicholas II",
-    "emoji": "😬",
-    "groups": "37",
-    "status": "published",
-    "provisional": false,
     "published": true,
-    "volume": 2,
-    "amazon_url": "https://www.amazon.com/dp/B0HLH2P7D3"
+    "amazon_url": "https://www.amazon.com/dp/B0HLH2P7D3",
+    "cover_kind": "author-supplied official",
+    "cover_path": "assets/leaked-chats-world-war-i-official.jpg"
   },
   {
+    "section": "War Trilogy",
+    "title": "World War II",
+    "period": "1937–1947",
+    "published": true,
+    "amazon_url": "https://www.amazon.com/dp/B0HRP19B4Z",
+    "cover_kind": "author-supplied official",
+    "cover_path": "assets/leaked-chats-world-war-ii-official.jpg"
+  },
+  {
+    "section": "War Trilogy",
     "title": "The Cold War",
-    "period": "1947–1991",
-    "accent": "#4c7193",
-    "background": "#d4e1eb",
-    "description": "A divided planet, two superpowers, too many missiles, and an astonishing amount of arguing in public while negotiating in private. Nobody wants to leave. Nobody dares to mute.",
-    "speakers": [
-      [
-        "HARRY S. TRUMAN",
-        "U.S. PRESIDENT",
-        "We need to contain this."
-      ],
-      [
-        "JOSEPH STALIN",
-        "SOVIET LEADER",
-        "Contain what, exactly?"
-      ],
-      [
-        "JOHN F. KENNEDY",
-        "U.S. PRESIDENT",
-        "We need a direct line."
-      ],
-      [
-        "NIKITA KHRUSHCHEV",
-        "SOVIET LEADER",
-        "Then perhaps we can stop shouting across the planet."
-      ]
-    ],
-    "system": "Group description updated: Mutually Assured Destruction",
-    "reaction": "Joseph Stalin",
-    "emoji": "🥶",
-    "groups": "49",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 3,
-    "published": false
+    "period": "1946–1991",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "author-supplied official",
+    "cover_path": "assets/leaked-chats-cold-war-official.jpg"
   },
   {
-    "title": "The Space Race",
-    "period": "1957–1975",
-    "accent": "#8a8a8a",
-    "background": "#ffffff",
-    "description": "Rockets, rivalries, impossible deadlines, and the race beyond Earth. The Cold War acquires a launchpad—and a group chat with absolutely no room for a typo.",
-    "speakers": [
-      [
-        "SERGEI KOROLEV",
-        "CHIEF DESIGNER",
-        "Sputnik is in orbit."
-      ],
-      [
-        "DWIGHT D. EISENHOWER",
-        "U.S. PRESIDENT",
-        "We are aware."
-      ],
-      [
-        "JOHN F. KENNEDY",
-        "U.S. PRESIDENT",
-        "We choose to go to the Moon."
-      ],
-      [
-        "NEIL ARMSTRONG",
-        "ASTRONAUT",
-        "That’s one small step for a man..."
-      ]
-    ],
-    "system": "The Moon was pinned to Race to the Future",
-    "reaction": "John F. Kennedy",
-    "emoji": "🚀",
-    "groups": "12",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 4,
-    "published": false
-  },
-  {
-    "title": "The Scientific Revolution",
-    "period": "1543–1687",
-    "accent": "#7c559d",
-    "background": "#e8d8ee",
-    "provisional": false,
-    "description": "Observation, experiment, mathematics, and a stubborn refusal to accept old answers. The laws of nature are rewritten in a chat full of telescopes, arguments, and inconvenient evidence.",
-    "speakers": [
-      [
-        "JOHANNES GUTENBERG",
-        "PRINTER",
-        "I can make copies."
-      ],
-      [
-        "LORENZO DE’ MEDICI",
-        "PATRON",
-        "How many copies?"
-      ],
-      [
-        "MICHELANGELO",
-        "ARTIST",
-        "I was told this would be a ceiling."
-      ],
-      [
-        "NICOLAUS COPERNICUS",
-        "ASTRONOMER",
-        "I may have a note about the center of everything."
-      ]
-    ],
-    "system": "Leonardo da Vinci created 47 new drafts",
-    "reaction": "Leonardo da Vinci",
-    "emoji": "🎨",
-    "groups": "28",
-    "status": "coming soon",
-    "volume": 5,
-    "published": false
-  },
-  {
-    "title": "The American Civil War",
-    "period": "1861–1865",
-    "accent": "#9c413b",
-    "background": "#e5ced0",
-    "description": "A nation splits. Its leaders, abolitionists, generals, and dissenters struggle over slavery, union, and freedom—while everyone insists the other side started the thread.",
-    "speakers": [
-      [
-        "ABRAHAM LINCOLN",
-        "U.S. PRESIDENT",
-        "A house divided against itself cannot stand."
-      ],
-      [
-        "FREDERICK DOUGLASS",
-        "ABOLITIONIST",
-        "Power concedes nothing without a demand."
-      ],
-      [
-        "ULYSSES S. GRANT",
-        "UNION GENERAL",
-        "I propose to fight it out on this line if it takes all summer."
-      ],
-      [
-        "ROBERT E. LEE",
-        "CONFEDERATE GENERAL",
-        "I had hoped for a shorter conversation."
-      ]
-    ],
-    "system": "South Carolina left Union · Created a new group",
-    "reaction": "Jefferson Davis",
-    "emoji": "👀",
-    "groups": "34",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 6,
-    "published": false
-  },
-  {
+    "section": "Technology",
     "title": "The Manhattan Project",
     "period": "1939–1945",
-    "accent": "#fff200",
-    "background": "#60ff1c",
-    "description": "Scientists, soldiers, classified messages, and the race to split the atom. A breakthrough of astonishing ingenuity creates a question no one can put back in its box.",
-    "speakers": [
-      [
-        "ALBERT EINSTEIN",
-        "PHYSICIST",
-        "I have a concern about uranium."
-      ],
-      [
-        "J. ROBERT OPPENHEIMER",
-        "SCIENTIFIC DIRECTOR",
-        "There may be several concerns."
-      ],
-      [
-        "ENRICO FERMI",
-        "PHYSICIST",
-        "The chain reaction worked."
-      ],
-      [
-        "LEO SZILARD",
-        "PHYSICIST",
-        "Can we discuss where this is going?"
-      ]
-    ],
-    "system": "Leslie Groves restricted group invitations",
-    "reaction": "Leslie Groves",
-    "emoji": "🔒",
-    "groups": "6",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 7,
-    "published": false
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
   },
   {
-    "title": "The Great Recession",
-    "period": "2007–2009",
-    "accent": "#387f71",
-    "background": "#cae4d9",
-    "description": "The housing bubble bursts. Banks wobble. Confidence vanishes. The people charged with keeping the financial system standing discover that the group is far too big to fail quietly.",
-    "speakers": [
-      [
-        "BEN BERNANKE",
-        "FEDERAL RESERVE CHAIR",
-        "The housing problem appears contained."
-      ],
-      [
-        "HENRY PAULSON",
-        "TREASURY SECRETARY",
-        "Contained where?"
-      ],
-      [
-        "TIMOTHY GEITHNER",
-        "NEW YORK FED",
-        "We may need a new plan."
-      ],
-      [
-        "BEN BERNANKE",
-        "FEDERAL RESERVE CHAIR",
-        "And considerably larger numbers."
-      ]
-    ],
-    "system": "Lehman Brothers was removed from Too Big to Fail",
-    "reaction": "Henry Paulson",
-    "emoji": "📉",
-    "groups": "23",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 8,
-    "published": false
+    "section": "Technology",
+    "title": "The Space Race",
+    "period": "1957–1975",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
   },
   {
-    "title": "The Great Depression",
-    "period": "1929–1939",
-    "accent": "#111111",
-    "background": "#d9d9d9",
-    "description": "The party on Wall Street ends; the consequences reach nearly everywhere. Confidence, policy, and desperation collide in the long aftermath of the crash.",
-    "speakers": [
-      [
-        "IRVING FISHER",
-        "ECONOMIST",
-        "Stock prices have reached what looks like a permanently high plateau."
-      ],
-      [
-        "JESSE LIVERMORE",
-        "TRADER",
-        "That is a very tall plateau."
-      ],
-      [
-        "HERBERT HOOVER",
-        "U.S. PRESIDENT",
-        "Recovery is on its way."
-      ],
-      [
-        "FRANKLIN D. ROOSEVELT",
-        "U.S. PRESIDENT",
-        "The only thing we have to fear is fear itself."
-      ]
-    ],
-    "system": "Great Expectations renamed Great Depression",
-    "reaction": "Jesse Livermore",
-    "emoji": "📉",
-    "groups": "18",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 9,
-    "published": false
+    "section": "Society",
+    "title": "The Renaissance",
+    "period": "c. 1400–1600",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML (standalone JPEG variant in assets)"
   },
   {
+    "section": "Society",
+    "title": "The Age of Science",
+    "period": "1543–1687",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
+  },
+  {
+    "section": "Americano",
     "title": "The American Revolution",
     "period": "1765–1783",
-    "accent": "#21468b",
-    "background": "#c62333",
-    "description": "Thirteen colonies object to the terms of membership. Pamphlets, letters, arguments, and impossible choices lead to a declaration—and an entirely new group.",
-    "speakers": [
-      [
-        "GEORGE III",
-        "KING OF GREAT BRITAIN",
-        "Thirteen colonies. Please confirm attendance."
-      ],
-      [
-        "BENJAMIN FRANKLIN",
-        "DIPLOMAT",
-        "We have a few objections."
-      ],
-      [
-        "THOMAS JEFFERSON",
-        "FOUNDING FATHER",
-        "We hold these truths to be self-evident."
-      ],
-      [
-        "GEORGE WASHINGTON",
-        "COMMANDER IN CHIEF",
-        "Then I suppose someone should organize this."
-      ]
-    ],
-    "system": "Thirteen colonies left British Empire",
-    "reaction": "Benjamin Franklin",
-    "emoji": "🫖",
-    "groups": "13",
-    "status": "coming soon",
-    "provisional": false,
-    "volume": 10,
-    "published": false
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
+  },
+  {
+    "section": "Americano",
+    "title": "The American Civil War",
+    "period": "1861–1865",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
+  },
+  {
+    "section": "Americano",
+    "title": "The Great Depression",
+    "period": "1929–1939",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
+  },
+  {
+    "section": "Americano",
+    "title": "The Great Recession",
+    "period": "2007–2009",
+    "published": false,
+    "amazon_url": null,
+    "cover_kind": "fictional concept",
+    "cover_path": "CSS concept embedded in HTML"
   }
 ]
