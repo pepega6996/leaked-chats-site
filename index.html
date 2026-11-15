@@ -240,6 +240,21 @@ footer{padding:16px 18px 19px}
 .header-typing .chat-indicator{width:41px;height:25px;gap:4px;border-radius:18px}
 .header-typing .chat-indicator i{width:4.5px;height:4.5px}
 @media(max-width:680px){.header-typing .chat-indicator{width:38px;height:23px;gap:3.5px}.header-typing .chat-indicator i{width:4px;height:4px}}
+
+/* V5.4 — aligned availability/status lines within each grid row on all breakpoints.
+   Retain compact section spacing; stretch only the cards within each row. */
+.book-grid{align-items:stretch;grid-auto-rows:auto}
+.book-card{height:100%;display:flex;flex-direction:column}
+.book-meta{flex:1 1 auto;display:flex;flex-direction:column}
+.card-actions{margin-top:auto;flex:0 0 auto}
+.store-links{min-height:36px}
+.store-links.empty{display:none}
+#war-trilogy .store-links.empty{display:flex;visibility:hidden}
+@media(max-width:680px){
+ .store-links{min-height:68px}
+ .collection:not(#war-trilogy) .store-links.empty{display:none}
+}
+@media(max-width:350px){.store-links{min-height:37px}}
 </style></head><body>
 <header class="top"><div><div class="brand">LEAKED <span>CHATS</span></div><p class="strap">Real words. Imagined chats.</p><div class="intro-kicker header-kicker">THE COLLECTION</div></div></header>
 <main>
