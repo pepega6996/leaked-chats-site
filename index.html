@@ -255,6 +255,21 @@ footer{padding:16px 18px 19px}
  .collection:not(#war-trilogy) .store-links.empty{display:none}
 }
 @media(max-width:350px){.store-links{min-height:37px}}
+
+/* Newsletter signup, using Brevo's hosted consent form in an on-site dialog */
+.signup-open{width:100%;border:0;background:#1c3657;color:#fff;border-radius:999px;min-height:44px;padding:12px 20px;font-size:13px;font-weight:800;cursor:pointer;transition:background .18s,transform .18s}
+.signup-open:hover,.signup-open:focus-visible{background:#2e4c70}
+.signup-open:hover{transform:translateY(-1px)}
+#newsletter-dialog{border:0;padding:0;max-height:95dvh;max-width:min(650px,95vw);width:100%;background:transparent;overflow:visible}
+#newsletter-dialog::backdrop{background:rgba(13,22,35,.72)}
+.newsletter-dialog-content{background:#f4f0e9;border-radius:16px;padding:18px 18px 14px;box-shadow:0 15px 55px #0005;max-height:94dvh;overflow:auto}
+.newsletter-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:10px}
+.newsletter-dialog-header h2{font-size:20px;letter-spacing:-.03em;margin:0;color:#1d252c}
+.newsletter-close{border:1px solid #c9c3b8;background:#fff;color:#202329;border-radius:999px;cursor:pointer;font-size:24px;line-height:1;width:35px;height:35px;flex-shrink:0}
+#newsletter-frame{width:100%;height:min(640px,72dvh);border:0;border-radius:8px;background:#fff;display:block}
+.newsletter-fallback{font-size:11px;text-align:center;line-height:1.4;margin:11px 0 0;color:#625e59}
+.newsletter-fallback a{color:#1c3657;text-underline-offset:2px}
+@media(max-width:680px){.newsletter-dialog-content{padding:14px 12px 12px}.newsletter-dialog-header h2{font-size:18px}#newsletter-frame{height:73dvh;min-height:380px}}
 </style></head><body>
 <header class="top"><div><div class="brand">LEAKED <span>CHATS</span></div><p class="strap">Real words. Imagined chats.</p><div class="intro-kicker header-kicker">THE COLLECTION</div></div></header>
 <main>
@@ -539,11 +554,18 @@ footer{padding:16px 18px 19px}
       <h2 id="newsletter-title">Get the next message.</h2>
       <p>New books. New conversations. Stay in the loop.</p>
    </div>
-   <div class="signup-right"><button type="button" class="signup-coming" disabled aria-disabled="true">Email updates coming soon</button></div>
+   <div class="signup-right"><button type="button" class="signup-open" id="signup-open" aria-haspopup="dialog" aria-controls="newsletter-dialog">Join newsletter</button></div>
  </section>
 <p class="method-note">Unpublished book covers are design concepts with fictional teaser dialogue and are not source-verified historical quotations as shown.</p>
 </main>
 <footer><span>© 2026 Vijay Anand. All rights reserved.</span><span>Leaked Chats™ and History is Typing™ are trademarks of Vijay Anand.</span></footer>
+<dialog id="newsletter-dialog" aria-labelledby="newsletter-dialog-title">
+  <div class="newsletter-dialog-content">
+    <div class="newsletter-dialog-header"><h2 id="newsletter-dialog-title">Get the next message.</h2><button type="button" class="newsletter-close" aria-label="Close newsletter form">×</button></div>
+    <iframe id="newsletter-frame" title="Leaked Chats newsletter subscription form" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p class="newsletter-fallback">Form not loading? <a href="https://aac48c32.sibforms.com/serve/MUIFABfvxDQdZ0FcvHE912IKsEq1CvQ0FsHEabycL9OMgsu_USnBoN8_UGfd4vFh22BNxlZYGfEas1XqFgAPu-j8gOSWlv6tgsHfi34KsWbq3yUH3MVM1KaMsbdrCiQd0FiDC_VD1KeHL7VYYrwiKUZ24J6AprEWho1EIVLhTGykkdA_qmwcV5DA54PTL6uL8rBg4gCB2v7HJ4EWTg==" target="_blank" rel="noopener noreferrer">Open the subscription form directly</a>.</p>
+  </div>
+</dialog>
 <dialog id="cover-dialog" aria-labelledby="dialog-title"><div class="dialog-content"><div class="dialog-top"><p id="dialog-title">Cover preview</p><button class="dialog-close" type="button" aria-label="Close cover preview">×</button></div><div class="dialog-stage" id="dialog-stage"></div><p id="dialog-note">Concept cover preview</p></div></dialog>
 <script>
 const dialog=document.getElementById('cover-dialog');
@@ -561,5 +583,15 @@ previewButtons.forEach(button=>button.addEventListener('click',()=>{
 function closePreview(){dialog.close();stage.replaceChildren();}
 document.querySelector('.dialog-close').addEventListener('click',closePreview);
 dialog.addEventListener('click',e=>{if(e.target===dialog)closePreview()});
+
+const signupDialog=document.getElementById('newsletter-dialog');
+const signupFrame=document.getElementById('newsletter-frame');
+const signupUrl="https://aac48c32.sibforms.com/serve/MUIFABfvxDQdZ0FcvHE912IKsEq1CvQ0FsHEabycL9OMgsu_USnBoN8_UGfd4vFh22BNxlZYGfEas1XqFgAPu-j8gOSWlv6tgsHfi34KsWbq3yUH3MVM1KaMsbdrCiQd0FiDC_VD1KeHL7VYYrwiKUZ24J6AprEWho1EIVLhTGykkdA_qmwcV5DA54PTL6uL8rBg4gCB2v7HJ4EWTg==";
+document.getElementById('signup-open').addEventListener('click',()=>{
+  if(!signupFrame.src) signupFrame.src=signupUrl;
+  signupDialog.showModal();
+});
+document.querySelector('.newsletter-close').addEventListener('click',()=>signupDialog.close());
+signupDialog.addEventListener('click',e=>{if(e.target===signupDialog)signupDialog.close();});
 </script>
 </body></html>
